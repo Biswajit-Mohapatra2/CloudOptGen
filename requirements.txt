@@ -1,0 +1,4 @@
+flask
+spacy
+boto3
+d3.js
