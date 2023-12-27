@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Diagram to Terraform</title>
+</head>
+<body>
+    <h1>Upload Cloud Architecture Diagram</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="diagram" accept=".png, .jpg, .jpeg">
+        <label for="format">Select Diagram Format:</label>
+        <select name="format" id="format">
+            <option value="png">PNG</option>
+            <option value="jpg">JPG</option>
+        </select>
+        <button type="submit">Generate Terraform Code</button>
+    </form>
+</body>
+</html>
